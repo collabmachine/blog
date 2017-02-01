@@ -1,0 +1,38 @@
+---
+layout: default
+ref: index
+lang: fr
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Articles</h1>
+
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
+
+  <!-- <iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
+
+
+  <!-- <div class="video_container" style="width: 100%"> -->
+  <!-- poster="path/to/poster_image.png" -->
+    <!-- <video controls="controls" allowfullscreen="true" style="width: 100%;"> -->
+      <!-- <source src="data/videos/test-de-micro.mov" type="video/mp4"> -->
+    <!-- </video> -->
+  <!-- </div> -->
+
+
+
+</div>

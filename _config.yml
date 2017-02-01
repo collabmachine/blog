@@ -13,18 +13,51 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Collab MACHINE
+title:
+  en: Collab MACHINE
+  fr: Collab MACHINE
+
 email: info@collabmachine.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+description:
+  en: Collab Machine is a collective for freelancers, clients and creative minds. It provides a platform to make it happen.
+  fr: Collab Machine rassemble des travailleurs autonomes des domaines du web et présente une plateforme pour la collaboration avec le client.
+index:
+  en:
+  fr: accueil.html
+feed:
+  en: /feed.xml
+  fr: /flux.xml
 url: "http://blog.collabmachine.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: collab_machine
-github_username:  collabmachine
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-83017510-1
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: info@collabmachine.com
+  facebook: Collab-Machine-332570973787419
+  flickr:
+  github: collabmachine
+  instagram:
+  linkedin: company/collab-machine
+  pinterest:
+  rss: ok # just type anything here for a working RSS icon
+  twitter: collab_machine
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+
+
 
 # Build settings
+baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 theme: minima
 gems:
