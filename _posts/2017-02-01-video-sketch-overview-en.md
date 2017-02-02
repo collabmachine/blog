@@ -8,5 +8,5 @@ lang: en
 ---
 
 
-The video is not available in English. The [fr version is here]({% post_url 2017-02-01-video-test %})
+The video is not available in English. The [fr version is here]({% post_url 2017-02-01-video-sketch-overview %})
 

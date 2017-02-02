@@ -4,6 +4,7 @@ title:  "Croquis sur les concepts de base"
 ref: overview_video
 date: 2017-02-01 16:45:00 +0100
 categories: video sketch
+tags: feminism anti-capitalism witchcraft
 lang: fr
 ---
 
