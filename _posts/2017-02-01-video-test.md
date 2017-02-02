@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vidéo - survol"
+title:  "Croquis sur les concepts de base"
 ref: overview_video
 date: 2017-02-01 16:45:00 +0100
 categories: video sketch
