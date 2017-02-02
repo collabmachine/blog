@@ -22,8 +22,8 @@ description:
   en: Collab Machine is a collective for freelancers, clients and creative minds. It provides a platform to make it happen.
   fr: Collab Machine rassemble des travailleurs autonomes des domaines du web et présente une plateforme pour la collaboration avec le client.
 index:
-  en:
-  fr: accueil.html
+  en: home.html
+  fr:
 feed:
   en: /feed.xml
   fr: /flux.xml
@@ -43,7 +43,7 @@ footer-links:
   email: info@collabmachine.com
   facebook: Collab-Machine-332570973787419
   flickr:
-  github: collabmachine
+  github: #collabmachine
   instagram:
   linkedin: company/collab-machine
   pinterest:
